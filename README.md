@@ -43,11 +43,26 @@ int main() {
 For at kompilere og køre programmet, brug følgende kommandoer:
 
 ```
-gcc -o dansketal main.c dansketal.c helpers.c
+gcc main.c dansketal.c helpers.c -o dantal
 ```
 
-Efterfulgt af
+Efterfulgt af:
 
 ```
-./dansketal
+./dantal
+```
+
+## Brug af demofil
+
+Der er vedlagt en demofil, der kører et par forskellige eksempler igennem.
+For at kompilere og køre demofilen, brug følgende kommandoer:
+
+```
+gcc demo.c dansketal.c helpers.c -o demo
+```
+
+Efterfulgt af:
+
+```
+./demo
 ```

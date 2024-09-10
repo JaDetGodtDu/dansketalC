@@ -9,6 +9,7 @@ void dansketal(int num, char *buffer, DanskeTalConfig *config)
     if (num == 0)
     {
         strcat(buffer, "nul");
+        return;
     }
 
     if (num < 0)

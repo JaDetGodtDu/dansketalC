@@ -1,0 +1,13 @@
+# Ignore Visual Studio Code Folder
+.vscode/
+
+# Ignore compiled files
+demo
+dantal
+*.o
+*.exe
+
+# Ignore common files
+*.log
+*.tmp
+*.bak

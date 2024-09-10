@@ -3,7 +3,7 @@
 
 typedef struct
 {
-    int use_en_for_large_numbers;
+    int use_en;
 } DanskeTalConfig;
 
 void convert_units(int num, char *buffer, int is_large_number, DanskeTalConfig *config);
