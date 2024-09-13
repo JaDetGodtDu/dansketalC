@@ -12,6 +12,11 @@ int main()
     printf("\n%d in Danish is: %s\n", number1, buffer);
     // Forventet output: "123 på dansk er: et hundrede og treogtyve"
 
+    int number1_1 = 1;
+    dansketal(number1_1, buffer, &config);
+    printf("\n%d in Danish is: %s\n", number1_1, buffer);
+    // Forventet output: "1 på dansk er: en"
+
     // Test 2: Negative tal
     int number2 = -456;
     dansketal(number2, buffer, &config);

@@ -95,6 +95,10 @@ void convert_units(int num, char *buffer, int is_large_number, DanskeTalConfig *
         {
             strcat(buffer, large_units[num]);
         }
+        else if (num == 1)
+        {
+            strcat(buffer, "en");
+        }
         else
         {
             strcat(buffer, units[num]);
